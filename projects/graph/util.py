@@ -7,7 +7,7 @@ class Queue():
         self.queue.append(value)
     def dequeue(self):
         if self.size() > 0:
-            return self.queue.pop(0)
+            return self.queue.pop(0) #<--- pop's off the front of the queue. The 0 is the index #.
         else:
             return None
     def size(self):
